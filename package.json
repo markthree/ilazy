@@ -1,7 +1,7 @@
 {
-  "name": "uramda",
+  "name": "ilazy",
   "version": "0.0.1",
-  "description": "ramda的仿造品",
+  "description": "一个通用的适合懒惰的人的交互包",
   "files": [
     "dist"
   ],

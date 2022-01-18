@@ -1,6 +1,6 @@
-# vite-lib-template
+# ilazy
 
-开箱即用的vite库模板
+一个通用的适合懒惰的人的交互包
 
 <br />
 
