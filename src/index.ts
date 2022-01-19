@@ -1,3 +1,6 @@
-const foo = 1
+import { createPath, useCWDPath } from './shared/path'
+import { ensureCreateFile } from './shared/fs'
 
-export { foo }
+const usePath = createPath(__dirname)
+
+export default {}
