@@ -1,6 +1,8 @@
-import { createPath, useCWDPath } from './shared/path'
-import { ensureCreateFile } from './shared/fs'
+import {
+	createEmptyFile,
+	createPath
+} from '@markthree/node-shared'
 
 const usePath = createPath(__dirname)
 
-export default {}
+createEmptyFile(usePath('../demo/index.vue'))
