@@ -95,3 +95,5 @@ export const useInquirerRawList = createPrompt('rawlist')
  * 多选框
  */
 export const useInquirerCheckbox = createPrompt('checkbox')
+
+export { prompt }
