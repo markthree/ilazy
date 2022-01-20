@@ -1,7 +1,10 @@
 {
-  "name": "ilazy",
+  "name": "@markthree/ilazy",
   "version": "0.0.1",
   "description": "一个通用的适合懒惰的人的交互包",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist"
   ],
