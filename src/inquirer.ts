@@ -20,7 +20,7 @@ interface IExpandChoice {
 interface ICommonPromptPayload {
 	key?: string
 	choices?: (string | IExpandChoice | CheckboxChoice)[]
-	default?: string | string[]
+	default?: string | string[] | false
 }
 
 type CheckboxChoice = {
@@ -29,7 +29,10 @@ type CheckboxChoice = {
 	checked?: boolean
 }
 
-type CommonPromptPayload = ICommonPromptPayload | string
+type CommonPromptPayload =
+	| ICommonPromptPayload
+	| string
+	| false
 
 /**
  * 创建一个通用的交互
@@ -45,7 +48,7 @@ const createPrompt = (type: PromptType) => {
 			name: 'output',
 			message: msg,
 			choices: payloadIsObj ? payload.choices : [],
-			default: payloadIsObj ? payload.default : payload
+			default: payloadIsObj ? payload.default : undefined
 		})
 		return output as string
 	}
