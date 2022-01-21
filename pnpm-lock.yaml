@@ -1,14 +1,14 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@markthree/node-shared': ^1.3.0
+  '@markthree/node-shared': ^1.3.1
   esno: ^0.14.0
   tsup: ^5.11.11
   typescript: ^4.5.4
   vitest: ^0.0.139
 
 dependencies:
-  '@markthree/node-shared': 1.3.0
+  '@markthree/node-shared': 1.3.1
 
 devDependencies:
   esno: 0.14.0_typescript@4.5.4
@@ -18,8 +18,8 @@ devDependencies:
 
 packages:
 
-  /@markthree/node-shared/1.3.0:
-    resolution: {integrity: sha512-9j6avolPnx6GX37HprSeNgmuLYSdc9qbLaEBsFF/TscgRLAQskffuUj4t1O/8y5DQ6lv0V9KzG3sRNPOB7qYOg==}
+  /@markthree/node-shared/1.3.1:
+    resolution: {integrity: sha512-QZKu/lT1LTXBDWwQDCVnD9TN2ewASQllwuvQGnCRAh7xODj/CmTgW13fk39M645gKz9MQ8lK84N3LJJz2PwfiA==}
     dependencies:
       '@types/fs-extra': 9.0.13
       '@types/inquirer': 8.1.3
